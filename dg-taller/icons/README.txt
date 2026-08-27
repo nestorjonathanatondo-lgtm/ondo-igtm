@@ -1,0 +1,1 @@
+Reemplaza estos iconos con tus logos D&G y JM en 192 y 512px

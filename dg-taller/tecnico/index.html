@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>DG Taller - Técnico</title><style>
+body{font-family:system-ui;background:#f5ecec;display:grid;place-items:center;min-height:100vh;margin:0}
+.card{background:#f5ecec;border-radius:24px;padding:32px;box-shadow:12px 12px 24px #d8c6c6,-12px -12px 24px #fff;width:100%;max-width:380px}
+h1{color:#7b2d2d;margin:0 0 12px} input{width:100%;padding:14px;border:none;border-radius:12px;background:#f5ecec;box-shadow:inset 4px 4px 8px #d8c6c6,inset -4px -4px 8px #fff;margin:8px 0;outline:none}
+button{width:100%;padding:14px;border:none;border-radius:12px;background:#7b2d2d;color:#fff;font-weight:700;cursor:pointer;margin-top:12px}
+</style></head>
+<body><div class="card">
+<h1>TÉCNICO</h1><p>Login: <b>tecnico1 / dg123</b></p>
+<input id="u" placeholder="Usuario"/><input id="p" type="password" placeholder="Contraseña"/><button onclick="login()">Entrar</button><p id="msg"></p>
+<script>function login(){const u=document.getElementById('u').value,p=document.getElementById('p').value; if(u==='tecnico1'&&p==='dg123'){document.getElementById('msg').innerHTML='✅ Acceso concedido - Bienvenido técnico';} else {document.getElementById('msg').innerHTML='❌ Credenciales inválidas';}}</script>
+</div></body></html>
