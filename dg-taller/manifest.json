@@ -1,12 +1,1 @@
-{
-  "name": "DG Taller - Sistema Integral",
-  "short_name": "DG Taller",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#f0e6e6",
-  "theme_color": "#7b2d2d",
-  "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
-  ]
-}
+{"name":"D&G Diésel & Gasolina Automotriz","short_name":"D&G Taller","start_url":"/","display":"standalone","background_color":"#0F0F0F","theme_color":"#7b2d2d","icons":[{"src":"photo6890248520780399467.jpeg","sizes":"192x192","type":"image/jpeg"}]}
